@@ -1,0 +1,42 @@
+.main {
+    display: flex; /* Enable flexbox layout */
+    min-height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+
+.right {
+    margin-left: calc(15vw + 40px);
+    padding: 20px;
+    min-width: calc(100vw - 15vw - 100px);
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #2B2B2B;
+    min-height: calc(100vh - 60px);    
+}
+.header {
+    background-color: #3A3D41;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content {
+    overflow: hidden; 
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.content.active {
+    max-height: calc(100vh - 60px); 
+}
+
+.content.deactive {
+    max-height: 0;
+}
