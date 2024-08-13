@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.9387a7c6.css",
-    "main.js": "/Portfolio-Website/static/js/main.b556ba13.js",
-    "static/js/453.ed3810f9.chunk.js": "/Portfolio-Website/static/js/453.ed3810f9.chunk.js",
+    "main.js": "/Portfolio-Website/static/js/main.b81463ef.js",
     "static/media/ai.jpg": "/Portfolio-Website/static/media/ai.8daf0f25825ec59c1aaa.jpg",
     "static/media/smart contract.jpg": "/Portfolio-Website/static/media/smart contract.0091199033953e2f7680.jpg",
     "static/media/aiditverse.png": "/Portfolio-Website/static/media/aiditverse.ad4d2a4aa0a58f088340.png",
@@ -23,11 +22,10 @@
     "index.html": "/Portfolio-Website/index.html",
     "static/media/summary.txt": "/Portfolio-Website/static/media/summary.9a1b79fae2312f8194eb.txt",
     "main.9387a7c6.css.map": "/Portfolio-Website/static/css/main.9387a7c6.css.map",
-    "main.b556ba13.js.map": "/Portfolio-Website/static/js/main.b556ba13.js.map",
-    "453.ed3810f9.chunk.js.map": "/Portfolio-Website/static/js/453.ed3810f9.chunk.js.map"
+    "main.b81463ef.js.map": "/Portfolio-Website/static/js/main.b81463ef.js.map"
   },
   "entrypoints": [
     "static/css/main.9387a7c6.css",
-    "static/js/main.b556ba13.js"
+    "static/js/main.b81463ef.js"
   ]
 }
