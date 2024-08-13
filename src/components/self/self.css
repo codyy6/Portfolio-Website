@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.expertise {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume {
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    margin-top: 60px;
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}

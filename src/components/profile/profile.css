@@ -4,30 +4,34 @@
     position: fixed; 
     top: 0; 
     left: 0; 
-    padding: 20px;
-    width: 15vw;
+    padding: 20px;    
+    width: 280px;
 }
 
 .profile-image-container {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Hide any overflow to keep the image contained */
+    min-height: 40vh;
+    max-height: 40vh;
 }
 
 .profile-image {
     display: block;
-    width: 100%; /* Make the image take up 100% of the container's width */
-    height: 40%; /* Maintain the aspect ratio */
-    min-height: 40%;
-    max-height: 40%; /* Set the maximum height to 40vh */
+    width: 100%;
     cursor: pointer;
-    object-fit: cover; /* Ensures the image covers the container without distortion */
+    object-fit: cover;
     opacity: 1;
-    transition: opacity 0.5s ease-in-out; /* Transition effect for opacity */
+    transition: opacity 0.5s ease-in-out; 
+  }
+  
+.profile-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out; 
 }
-
+  
 .transitioning .profile-image {
-    opacity: 0; /* Fade out the image */
+    opacity: 0; 
 }
 
 .personal-details {

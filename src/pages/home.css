@@ -6,9 +6,9 @@
 
 
 .right {
-    margin-left: calc(15vw + 40px);
+    margin-left: calc(320px);
     padding: 20px;
-    min-width: calc(100vw - 15vw - 100px);
+    min-width: calc(100vw - 380px);
 }
 
 .right-content {
@@ -21,10 +21,13 @@
     background-color: #2B2B2B;
     min-height: calc(100vh - 60px);    
 }
-.header {
+.section {
     background-color: #3A3D41;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+.header{
     cursor: pointer;
 }
 

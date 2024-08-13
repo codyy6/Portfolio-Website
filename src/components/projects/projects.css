@@ -1,0 +1,17 @@
+/* Projects.css */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Adjust spacing between the cards */
+    padding: 20px; /* Optional padding around the container */
+    justify-items: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+.square-container {
+    background-color: #000000; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border-radius: 8px; 
+    width: 25%;
+}
