@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.9387a7c6.css",
-    "main.js": "/Portfolio-Website/static/js/main.fdbf8b95.js",
+    "main.css": "/Portfolio-Website/static/css/main.bb58d0ed.css",
+    "main.js": "/Portfolio-Website/static/js/main.834107bd.js",
     "static/media/ai.jpg": "/Portfolio-Website/static/media/ai.8daf0f25825ec59c1aaa.jpg",
     "static/media/smart contract.jpg": "/Portfolio-Website/static/media/smart contract.0091199033953e2f7680.jpg",
     "static/media/aiditverse.png": "/Portfolio-Website/static/media/aiditverse.ad4d2a4aa0a58f088340.png",
@@ -20,12 +20,12 @@
     "static/media/linkedin.png": "/Portfolio-Website/static/media/linkedin.307e13c8dbbdafcf2f96.png",
     "static/media/gmail.webp": "/Portfolio-Website/static/media/gmail.6362ef82d1c4308e768d.webp",
     "index.html": "/Portfolio-Website/index.html",
-    "static/media/summary.txt": "/Portfolio-Website/static/media/summary.9a1b79fae2312f8194eb.txt",
-    "main.9387a7c6.css.map": "/Portfolio-Website/static/css/main.9387a7c6.css.map",
-    "main.fdbf8b95.js.map": "/Portfolio-Website/static/js/main.fdbf8b95.js.map"
+    "static/media/summary.txt": "/Portfolio-Website/static/media/summary.9905338358c855dc8305.txt",
+    "main.bb58d0ed.css.map": "/Portfolio-Website/static/css/main.bb58d0ed.css.map",
+    "main.834107bd.js.map": "/Portfolio-Website/static/js/main.834107bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.9387a7c6.css",
-    "static/js/main.fdbf8b95.js"
+    "static/css/main.bb58d0ed.css",
+    "static/js/main.834107bd.js"
   ]
 }
