@@ -19,7 +19,7 @@ const categories: InterestCategory[] = [
     label: 'Adventurous',
     tagline: "Moved by what's hard to reach.",
     description:
-      "Life is not always comfortable, and once you get too comfortable, you stop moving. And a lot of times failure is just life way of moving us towards another direction. Doing these adventurous things are training me to not be afriad of failure.",
+      "Life is not always comfortable, and once you get too comfortable, you stop moving. And a lot of times failure is just life way of moving us towards another direction. Doing these adventurous things are training me to not be afraid of failure.",
     images: [
       { src: '/IMG_20250705_072322862.jpg' },
       { src: '/photo_6214999543867183634_y.jpg' },

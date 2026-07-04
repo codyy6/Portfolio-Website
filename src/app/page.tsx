@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { profile, skills, products } from '@/lib/data'
 
 export default function Home() {
@@ -45,13 +44,12 @@ export default function Home() {
           </div>
         </div>
         <div className="sm:w-64 sm:flex-shrink-0">
-          <Image
-            src="/IMG_20260527_224926_363.jpg"
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/IMG_20260527_224926_363.jpg`}
             alt={profile.name}
             width={256}
             height={320}
             className="rounded-xl object-cover w-full"
-            priority
           />
         </div>
       </section>
