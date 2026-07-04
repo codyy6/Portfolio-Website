@@ -1,9 +1,0 @@
-html, body, #root, .main_content {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #1F1F1F; /* Replace this with your desired color */
-  font-family: 'Times New Roman';
-  color: rgb(255, 255, 255);
-}
