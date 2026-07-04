@@ -80,7 +80,7 @@ function ImageStrip({ images, imageHeight = '260px' }: { images: InterestImage[]
             className="flex-shrink-0 overflow-hidden rounded border border-[#1f1f1f]"
             style={{ height: imageHeight }}
           >
-            <img src={img.src} alt="" className="h-full w-auto object-cover" />
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${img.src}`} alt="" className="h-full w-auto object-cover" />
           </div>
         ))}
       </div>
